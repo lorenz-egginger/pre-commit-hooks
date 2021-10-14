@@ -58,6 +58,11 @@ Attempts to load all json files to verify syntax.
 #### `check-merge-conflict`
 Check for files that contain merge conflict strings.
 
+#### `check-number-of-lines-count`
+Check if the number of lines of a file is greater than a threshold.
+You can configure this with the following command line option:
+  - `--max-lines N` - maximum number of lines allowed in a file.
+
 #### `check-shebang-scripts-are-executable`
 Checks that scripts with shebangs are executable.
 
